@@ -1,0 +1,96 @@
+.social img{
+  margin: 10px;
+     height: 26px;
+     width: 26px;
+     color: black;
+}
+.social img:hover{
+  transform: scale(1.15);
+}
+.navhead{
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: white;
+}
+.icon{
+  margin-top: 9rem;
+  margin-right: 4.5rem;
+}
+.icon i{
+  font-size: 1.2rem;
+  color: white;
+  font-weight: bolder;
+}
+.icon i:hover{
+  color: rgb(17, 255, 0);
+  cursor: pointer;
+}
+
+
+
+.dropbtn {
+  margin-top: 1rem;
+  font-size: 2rem;
+  color: white;
+  padding: 10px;
+  font-size: 1.7rem;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 90px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 10px 8px;
+  text-decoration: none;
+  display: block;
+  text-align: start;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #eceaea}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
+@media (max-width:597px){
+  .social img{
+       margin: 5px;
+       height: 16px;
+       width: 16px;
+  }
+  .dropbtn {
+    padding: 8px;
+    font-size: 1.3rem;
+  }
+  .icon{
+    margin-right: 1.8rem;
+  }
+  .navhead{
+    font-size: 1.7rem;
+  }
+}

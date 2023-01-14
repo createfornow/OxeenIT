@@ -1,0 +1,51 @@
+.image img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 99%;
+    width: 100%;
+    object-fit: cover;
+}
+.heading{
+   margin-top: 5rem;
+   padding-top: 2.5rem;
+   padding-bottom: 3rem;
+   margin-left: 10rem;
+   margin-right: 10rem;
+   border: 6px solid white;
+}
+.heading h1{
+   font-size: 8.6rem;
+   font-weight: bolder;
+   text-align: center;
+   color: white;
+}
+
+@media (max-width:725px){
+   .heading{
+      margin-top: 4rem;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      margin-left: 7rem;
+      margin-right: 7rem;
+      border: 5px solid white;
+   }
+   .heading h1{
+      font-size: 5rem;
+   }
+}
+
+@media (max-width:474px){
+   .heading{
+      margin-top: 8rem;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      margin-left: 2rem;
+      margin-right: 4rem;
+   }
+   .heading h1{
+      padding: 1rem;
+      font-size: 3rem;
+   }
+}
